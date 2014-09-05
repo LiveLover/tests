@@ -1,3 +1,5 @@
-include ../lib/Makefile
+subsystem:
+	$(MAKE) -C ../lib
 all:
-	echo PROJ
+	echo $(CURDIR)
+	echo $(MAKE)
